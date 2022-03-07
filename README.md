@@ -1,6 +1,6 @@
 # gouseragents
 
-Accurate list of desktop, phone, tablet and tv user agents.
+Accurate and fresh list of desktop, phone, tablet and tv user agents.
 
 # install
 
@@ -20,3 +20,7 @@ func main() {
 	}
 }
 ```
+
+# update useragents
+
+The code base are json files located in the "gen" directory. After a file change you have to start the code generator with `go generate gen/useragents.go`. Create a PR. Done.
