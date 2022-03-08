@@ -1,3 +1,9 @@
+[![Coverage Status](https://coveralls.io/repos/github/emetriq/gouseragents/badge.svg?branch=main)](https://coveralls.io/github/emetriq/gouseragents?branch=main)
+
+[![RELEASE](https://github.com/emetriq/gouseragents/actions/workflows/release.yaml/badge.svg)](https://github.com/emetriq/gouseragents/actions/workflows/release.yaml)
+
+[![CI](https://github.com/emetriq/gouseragents/actions/workflows/ci.yaml/badge.svg)](https://github.com/emetriq/gouseragents/actions/workflows/ci.yaml)
+
 # gouseragents
 
 Accurate and fresh list of desktop, phone, tablet and tv user agents.
