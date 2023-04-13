@@ -55,16 +55,16 @@ func main() {
 
 	userAgents := map[string][]string{
 		"tv": {jsonPaths[0], path.Join(
-			"..", "useragents", "tv", "gen_tv.go",
+			"..", "tv", "gen_tv.go",
 		)},
 		"desktop": {jsonPaths[1], path.Join(
-			"..", "useragents", "desktop", "gen_desktop.go",
+			"..", "desktop", "gen_desktop.go",
 		)},
 		"phone": {jsonPaths[2], path.Join(
-			"..", "useragents", "phone", "gen_phone.go",
+			"..", "phone", "gen_phone.go",
 		)},
 		"tablet": {jsonPaths[3], path.Join(
-			"..", "useragents", "tablet", "gen_tablet.go",
+			"..", "tablet", "gen_tablet.go",
 		)},
 	}
 	for name, files := range userAgents {
